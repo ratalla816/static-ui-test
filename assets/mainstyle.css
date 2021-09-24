@@ -404,50 +404,11 @@ nav .nav-right a > i{
   /* col-sm */
   @media screen and (max-width: 1160px) {
     
-    .left-panel { display: block; 
-                  position: relative !important; 
-                  flex: none; 
-                  /* flex: grow; */
-                  width: 100%; }
-    
-    .middle-panel { display: block;
-                    position: relative !important;
-                    /* flex: none; */
-                    /* flex: shrink; */
-                    /* width: 100%; */
-                } 
-  
-    .right-panel { display: block;
-                   position: relative !important;
-                   flex: none;
-                   width: 100%; }
-    
-    .container { display: block !important; 
-                 flex: grow;  
-                 /* flex-direction: row;  */
-
-    }
-  
-    .story { 
-             width: 20% !important; 
-             height: 200px; 
-             position: relative;
-             flex-direction: row;
-             overflow: visible;
-             /* overflow-x: hidden; */
-             /* overflow-y: hidden; */
-    }
-
-    .post { width: 65% !important; }
-
-    .action { width: 20% !important }
-
-    }
-  
-  
-  
-  /* col-md  GOOD */
-  @media screen and (max-width: 812px) {
+    nav {
+        /* display: block !important;  */
+        flex-wrap: wrap; 
+        height: 185px;
+ }
 
     .left-panel { display: block; 
         position: relative !important; 
@@ -455,37 +416,99 @@ nav .nav-right a > i{
         /* flex: grow; */
         width: 100%; }
 
-.middle-panel { display: block;
-          position: relative !important;
+    .middle-panel { 
+        display: block;
+        position: relative !important; } 
           /* flex: none; */
           /* flex: shrink; */
           /* width: 100%; */
-      } 
+       
 
-.right-panel { display: block;
-         position: relative !important;
-         flex: none;
-         width: 100%; }
+    .right-panel { 
+        display: block;
+        position: relative !important;
+        flex: none;
+        width: 100%; }
 
-.container { display: block !important; 
-       flex: grow;  
+    .container { 
+        display: block !important; 
+        flex: grow; } 
        /* flex-direction: row;  */
 
-}
 
-.story { 
-   width: 20% !important; 
-   height: 200px; 
-   position: relative;
-   flex-direction: row;
-   overflow: visible;
+
+    .story { 
+        width: 20% !important; 
+        height: 200px; 
+        position: relative;
+        flex-direction: row;
+        overflow: visible;}
    /* overflow-x: hidden; */
    /* overflow-y: hidden; */
-}
 
-.post { width: 65% !important; }
 
-.action { width: 20% !important }
+    .post 
+       { width: 65% !important; }
+
+    .action 
+       { width: 20% !important }
+
+  
+    }
+  
+  
+  
+  /* col-md  GOOD */
+  @media screen and (max-width: 812px) {
+
+    nav {
+        /* display: block !important;  */
+        flex-wrap: wrap; 
+        height: 185px;
+ }
+
+    .left-panel { display: block; 
+        position: relative !important; 
+        flex: none; 
+        /* flex: grow; */
+        width: 100%; }
+
+    .middle-panel { 
+        display: block;
+        position: relative !important; } 
+          /* flex: none; */
+          /* flex: shrink; */
+          /* width: 100%; */
+       
+
+    .right-panel { 
+        display: block;
+        position: relative !important;
+        flex: none;
+        width: 100%; }
+
+    .container { 
+        display: block !important; 
+        flex: grow; } 
+       /* flex-direction: row;  */
+
+
+
+    .story { 
+        width: 20% !important; 
+        height: 200px; 
+        position: relative;
+        flex-direction: row;
+        overflow: visible;}
+   /* overflow-x: hidden; */
+   /* overflow-y: hidden; */
+
+
+    .post 
+       { width: 65% !important; }
+
+    .action 
+       { width: 20% !important }
 
   
   }
