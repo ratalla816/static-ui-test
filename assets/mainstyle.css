@@ -407,8 +407,18 @@ nav .nav-right a > i{
     nav {
         /* display: block !important;  */
         flex-wrap: wrap; 
-        height: 185px;
- }
+        height: 185px; }
+
+    nav .nav-left > input {
+        /* height: 40px; */
+        padding: 5px 110px; 
+        /* border: none; */
+        /* border-radius: 25px; */
+        /* outline: none; */
+        /* background-color: #eee; */
+        /* margin-left: 10px; */
+        width: 100%
+        }    
 
     .left-panel { display: block; 
         position: relative !important; 
@@ -458,14 +468,24 @@ nav .nav-right a > i{
   
   
   
-  /* col-md  GOOD */
+  /* col-md */
   @media screen and (max-width: 812px) {
 
     nav {
         /* display: block !important;  */
         flex-wrap: wrap; 
-        height: 185px;
- }
+        height: 185px; }
+
+    nav .nav-left > input {
+        /* height: 40px; */
+        padding: 5px 110px; 
+        /* border: none; */
+        /* border-radius: 25px; */
+        /* outline: none; */
+        /* background-color: #eee; */
+        /* margin-left: 10px; */
+        width: 100%
+    }    
 
     .left-panel { display: block; 
         position: relative !important; 
@@ -500,8 +520,7 @@ nav .nav-right a > i{
         position: relative;
         flex-direction: row;
         overflow: visible;}
-   /* overflow-x: hidden; */
-   /* overflow-y: hidden; */
+   
 
 
     .post 
