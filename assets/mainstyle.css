@@ -401,9 +401,9 @@ nav .nav-right a > i{
     font-size: 24px;
 }
 
-  /* col-sm */
-  @media screen and (max-width: 1160px) {
-    
+ /* mobile phones up to iphone 13 */
+ @media screen and (max-width: 812px) {
+
     nav {
         /* display: block !important;  */
         flex-wrap: wrap; 
@@ -417,21 +417,27 @@ nav .nav-right a > i{
         /* outline: none; */
         /* background-color: #eee; */
         /* margin-left: 10px; */
-        width: 100%
+        width: 100% }    
+
+    nav .nav-middle {
+       
         }    
 
-    .left-panel { display: block; 
+    nav .nav-right {
+     
+            }    
+    
+    
+    .left-panel { 
+        display: block; 
         position: relative !important; 
         flex: none; 
-        /* flex: grow; */
         width: 100%; }
 
     .middle-panel { 
         display: block;
         position: relative !important; } 
-          /* flex: none; */
-          /* flex: shrink; */
-          /* width: 100%; */
+        
        
 
     .right-panel { 
@@ -443,9 +449,69 @@ nav .nav-right a > i{
     .container { 
         display: block !important; 
         flex: grow; } 
-       /* flex-direction: row;  */
+      
+    .story { 
+        width: 20% !important; 
+        height: 200px; 
+        position: relative;
+        flex-direction: row;
+        overflow: visible;}
+   
+    .post 
+       { width: 94% !important; }
 
+    .action 
+       { width: 20% !important }
 
+  
+  }
+   
+
+ /* tablet */
+  @media screen and (max-width: 1160px) {
+    
+    nav {
+        /* display: block !important;  */
+        flex-wrap: wrap; 
+        height: 185px; }
+
+    nav .nav-left > input {
+        padding: 5px 110px; 
+        width: 100%
+        }  
+        
+    nav .nav-middle {
+     
+        }
+
+    nav .nav-right {
+      
+        
+        }    
+
+    
+    
+    
+    .left-panel { display: block; 
+        position: relative !important; 
+        flex: none; 
+        width: 100%; }
+
+    .middle-panel { 
+        display: block;
+        position: relative !important; } 
+                
+
+    .right-panel { 
+        display: block;
+        position: relative !important;
+        flex: none;
+        width: 100%; }
+
+    .container { 
+        display: block !important; 
+        flex: grow; } 
+      
 
     .story { 
         width: 20% !important; 
@@ -453,9 +519,7 @@ nav .nav-right a > i{
         position: relative;
         flex-direction: row;
         overflow: visible;}
-   /* overflow-x: hidden; */
-   /* overflow-y: hidden; */
-
+  
 
     .post 
        { width: 65% !important; }
@@ -468,76 +532,6 @@ nav .nav-right a > i{
   
   
   
-  /* col-md */
-  @media screen and (max-width: 812px) {
-
-    nav {
-        /* display: block !important;  */
-        flex-wrap: wrap; 
-        height: 185px; }
-
-    nav .nav-left > input {
-        /* height: 40px; */
-        padding: 5px 110px; 
-        /* border: none; */
-        /* border-radius: 25px; */
-        /* outline: none; */
-        /* background-color: #eee; */
-        /* margin-left: 10px; */
-        width: 100%
-    }    
-
-    .left-panel { display: block; 
-        position: relative !important; 
-        flex: none; 
-        /* flex: grow; */
-        width: 100%; }
-
-    .middle-panel { 
-        display: block;
-        position: relative !important; } 
-          /* flex: none; */
-          /* flex: shrink; */
-          /* width: 100%; */
-       
-
-    .right-panel { 
-        display: block;
-        position: relative !important;
-        flex: none;
-        width: 100%; }
-
-    .container { 
-        display: block !important; 
-        flex: grow; } 
-       /* flex-direction: row;  */
-
-
-
-    .story { 
-        width: 20% !important; 
-        height: 200px; 
-        position: relative;
-        flex-direction: row;
-        overflow: visible;}
-   
-
-
-    .post 
-       { width: 94% !important; }
-
-    .action 
-       { width: 20% !important }
-
+ 
   
-  }
-  
-  /* col-lg */
-  @media screen and (min-width: 992px) {
-  }
-  
-  /* col-xl */
-  @media screen and (min-width: 1200px) {
-  
-  }
   
