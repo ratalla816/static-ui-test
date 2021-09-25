@@ -405,12 +405,12 @@ nav .nav-right a > i{
  @media screen and (max-width: 500px) {
 
     nav { 
-        display: block !important; 
+        /* display: block !important;  */
         flex-wrap: wrap; 
-        height: 185px; }
+        height: 115px; }
 
     nav {
-        height: 105px;
+        /* height: 105px; */
         width: 100%;
         padding: 0 2rem;
         display: flex;
@@ -548,7 +548,7 @@ nav .nav-right a > i{
   @media screen and (max-width: 1668px) {
     
     nav {
-        /* display: block !important;  */
+        display: block !important; 
         flex-wrap: wrap; 
         height: 115px; }
 
@@ -574,7 +574,7 @@ nav .nav-right a > i{
         }   */
     
     nav {
-        height: 70px;
+        /* height: 185px; */
         width: 100%;
         padding: 0 2rem;
         display: flex;
