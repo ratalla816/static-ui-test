@@ -405,12 +405,12 @@ nav .nav-right a > i{
  @media screen and (max-width: 500px) {
 
     nav { 
-        /* display: block !important;  */
+        display: block !important; 
         flex-wrap: wrap; 
         height: 115px; }
 
     nav {
-        /* height: 105px; */
+        height: 105px;
         width: 100%;
         padding: 0 2rem;
         display: flex;
@@ -561,12 +561,12 @@ nav .nav-right a > i{
 
     nav .nav-left > input {
         height: 40px;
-        padding: 7px 78px;
+        padding: 7px 30px;
         border: none;
         border-radius: 25px;
         outline: none;
         background-color: #eee;
-        margin-left: 25px; }    
+        margin-left: 10px; }    
 
     /* nav .nav-left > input {
         padding: 5px 110px; 
