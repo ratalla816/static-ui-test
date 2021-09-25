@@ -552,10 +552,21 @@ nav .nav-right a > i{
         flex-wrap: wrap; 
         height: 115px; }
 
-        nav .nav-left > input {
-            /* padding: 5px 110px; */
-            width: 100%;
-            margin-top: 5px; }
+    nav .nav-left > img { width: 51px; }       
+
+    nav .nav-left > input {
+        /* padding: 5px 110px; */
+        width: 100%;
+        margin-top: 5px; }
+
+    nav .nav-left > input {
+        height: 40px;
+        padding: 6px 78px;
+        border: none;
+        border-radius: 25px;
+        outline: none;
+        background-color: #eee;
+        margin-left: 10px; }    
 
     /* nav .nav-left > input {
         padding: 5px 110px; 
