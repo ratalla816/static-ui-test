@@ -545,7 +545,7 @@ nav .nav-right a > i{
    
 
  /* tablet */
-  @media screen and (max-width: 1160px) {
+  @media screen and (max-width: 1668px) {
     
     nav {
         /* display: block !important;  */
@@ -566,7 +566,7 @@ nav .nav-right a > i{
         border-radius: 25px;
         outline: none;
         background-color: #eee;
-        margin-left: 10px; }    
+        margin-left: 25px; }    
 
     /* nav .nav-left > input {
         padding: 5px 110px; 
