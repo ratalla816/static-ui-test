@@ -545,7 +545,7 @@ nav .nav-right a > i{
    
 
  /* tablet */
-  @media screen and (max-width: 1194px) {
+  @media screen and (max-width: 1160px) {
     
     nav {
         display: block !important; 
